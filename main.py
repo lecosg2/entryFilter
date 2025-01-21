@@ -15,7 +15,7 @@ refLine = 1
 def isNewEntry(line):
     curLine = ws['A' + str(line)].value
     if not curLine:
-        return [False, False]
+        return 0
 
     count = 0
 
